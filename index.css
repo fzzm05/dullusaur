@@ -1,38 +1,35 @@
 body{
     background-color: whitesmoke;
-    font-family: MyFont;
-}
-
-.pop-up{
-    width: 50%;
-    height: 45%;
-    margin-left: 25%;
-    margin-top: 10%;
-    background-color: #5109bb;
-    opacity: 100%;
-    border-radius: 20px;
-    position: relative;
-    padding: 1%;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid black;
 }
 
 h1{
-    text-align: left;
-    color: white;
-    font-size: large;
-    margin-left: 5%;
+    text-align: center;
+    font-family: MyFont;
+    color: #5109bb;
+    font-size: 300%;
+}
+
+img{
+    border-radius: 15px;
 }
 
 p{
-    text-align: left;
-    color: white;
-    margin-left: 5%;
-    font-size: smaller;
-    text-wrap: warp;
     font-family: Arial, Helvetica, sans-serif;
-    margin-right: 5%;
+    text-align: center;
+}
+
+.kituff{
+    width: 30%;
+    height: 50%;
+
+}
+
+#flex{
+    display: flex;
+    width: 100%;
+    margin-left: 0px;
+    justify-content: space-between;
+    flex:1;
 }
 
 @font-face { 
@@ -44,33 +41,17 @@ p{
     font-style: normal; 
 } 
 
-img{
-    margin-left: 65%;
-    position: absolute;
-    margin-bottom: 60%;
-    width: 15%;
-    animation-name: cat;
-    animation-duration: 4s;
-}
-
-img:hover{
-    transform: scale(0.95, 0.95);
-    transition-duration: 0.3s;
-}
-
-.pop-up:hover{
-    background-color: #c00000;
+.gif:hover{
+    transform: scale(0.96,0.96);
     transition-duration: 1s;
-    transform: scale(0.99,0.99);
-
 }
 
-@keyframes cat{
-    from{
-        transform: translate(0px, 0px)
-    };
-    to{
-        transform: translate(0px, 200px)
-    };
+h1:hover{
+    transform: scale(1.03,1.03);
+    transition-duration: 1s;
 }
 
+.kituff:hover{
+    transform: scale(1.05,1.05);
+    transition-duration: 1s;
+}
